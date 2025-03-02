@@ -2,11 +2,12 @@ import CoursesCards from "./CoursesCards";
 import bgmiImg from "../assests/images/BgmiCarding.jpeg";
 import binFindImg from "../assests/images/BinFind.jpeg";
 import instaMartImg from "../assests/images/Instamart.jpeg";
-import cardingImg from "../assests/images/Carding.jpeg";
 import vipPack from "../assests/images/VipPack.jpeg";
 import paidCC from "../assests/images/PaidCC.jpg";
-import basicCarding from "../assests/images/BasicCarding.jpg";
-
+import basicCarding from "../assests/images/BasicCarding.jpeg";
+import bookMyShow from "../assests/images/BookMyShow.jpg";
+import cardingKnowledge from "../assests/images/CardingKnowledge.jpg";
+import zomatoCarding from "../assests/images/ZomatoCarding.jpg";
 
 const courses = [
   {
@@ -40,12 +41,33 @@ const courses = [
   {
     id: 5,
     title: "BASIC CARDING",
-    price: "1000.00",
+    price: "1500.00",
     image: basicCarding,
     description: "This course include yt premium , snapchat premium , chat gpt , remini , spotify open ai any subscription based website carding",
   },
   {
     id: 6,
+    title: "CARDING KNOWLEDGE",
+    price: "600.00",
+    image: cardingKnowledge,
+    description: "",
+  },
+  {
+    id: 7,
+    title: "BOOK MY SHOW",
+    price: "1000.00",
+    image: bookMyShow,
+    description: "",
+  },
+  {
+    id: 8,
+    title: "ZOMATO SWIGGY CARDING",
+    price: "1800.00",
+    image: zomatoCarding,
+    description: "",
+  },
+  {
+    id: 9,
     title: "VIP + COURSE",
     price: "3200.00",
     image: vipPack,
