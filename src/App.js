@@ -20,38 +20,6 @@ function App() {
       </Routes>
       <Footer />
     </Router>
-
-    // <Router>
-    //   <div className="bg-gray-900 text-white">
-    //     <Header />
-    //     <Navbar />
-    //     <Hero />
-
-    //     <Routes>
-    //       <Route
-    //         path="/"
-    //         element={
-    //           <>
-    //             <Products />
-    //             <Features />
-    //           </>
-    //         }
-    //       />
-
-    //       <Route
-    //         path="/product/:id"
-    //         element={
-    //           <>
-    //             <Navbar />
-    //             <ProductDetails />
-    //           </>
-    //         }
-    //       />
-    //     </Routes>
-
-    //     <Footer />
-    //   </div>
-    // </Router>
   );
 }
 
