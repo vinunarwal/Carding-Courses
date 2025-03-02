@@ -2,6 +2,8 @@ import { useState } from "react";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
+import carderZone from "../assests/images/CarderZone.jpeg";
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,7 +12,12 @@ const Navbar = () => {
     <nav className="bg-black text-white py-4 px-6 flex justify-between items-center shadow-lg relative">
       {/* Logo */}
       <Link to="/" className="text-2xl font-bold tracking-wider cursor-pointer">
-        Carding <span className="text-green-400">Zone</span>
+        {/* Carding <span className="text-green-400">Zone</span> */}
+        <img
+          src={carderZone}
+          alt= "Carding Zone"
+          className="w-full h-10 rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
+        />
       </Link>
 
       {/* Desktop Menu */}

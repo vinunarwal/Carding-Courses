@@ -3,7 +3,7 @@ import bgmiImg from "../assests/images/BgmiCarding.jpeg";
 import binFindImg from "../assests/images/BinFind.jpeg";
 import instaMartImg from "../assests/images/Instamart.jpeg";
 import cardingImg from "../assests/images/Carding.jpeg";
-import carderZoneImg from "../assests/images/CarderZone.jpeg";
+import vipPack from "../assests/images/VipPack.jpeg";
 
 const courses = [
   {
@@ -22,7 +22,7 @@ const courses = [
   },
   {
     id: 3,
-    title: "INSTAMART ZEPTO CARDING COURSE",
+    title: "INSTAMART ZEPTO CARDING",
     price: "2000.00",
     image: instaMartImg,
     description: "",
@@ -45,7 +45,7 @@ const courses = [
     id: 6,
     title: "VIP + COURSE",
     price: "2500.00",
-    image: carderZoneImg,
+    image: vipPack,
     description: "This course includes all method of carding such as zomato swiggy myntra meesho instamart blinkit zepto bgmi uc ff bin find method 5 cc shop binance deposit a to z pay in two times pay 2k and then pay 500 ",
   },
 ];
