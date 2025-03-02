@@ -33,14 +33,14 @@ const CourseDetails = () => {
       name: "PhonePe",
       icon: <SiPhonepe className="text-purple-500 text-xl" />,
     },
-    {
-      name: "Bank Transfer",
-      icon: <FaUniversity className="text-green-500 text-xl" />,
-    },
-    {
-      name: "Credit Card",
-      icon: <FaCreditCard className="text-yellow-500 text-xl" />,
-    },
+    // {
+    //   name: "Bank Transfer",
+    //   icon: <FaUniversity className="text-green-500 text-xl" />,
+    // },
+    // {
+    //   name: "Credit Card",
+    //   icon: <FaCreditCard className="text-yellow-500 text-xl" />,
+    // },
   ];
 
   return (
