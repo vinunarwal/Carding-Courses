@@ -4,6 +4,9 @@ import binFindImg from "../assests/images/BinFind.jpeg";
 import instaMartImg from "../assests/images/Instamart.jpeg";
 import cardingImg from "../assests/images/Carding.jpeg";
 import vipPack from "../assests/images/VipPack.jpeg";
+import paidCC from "../assests/images/PaidCC.jpg";
+import basicCarding from "../assests/images/BasicCarding.jpg";
+
 
 const courses = [
   {
@@ -31,20 +34,20 @@ const courses = [
     id: 4,
     title: "PAID CC",
     price: "1000.00",
-    image: cardingImg,
+    image: paidCC,
     description: "You will get cc with balance over 3-10k inr you can use in play store , bgmi uc , ff , yt premium , zepto , blinkit.  This cc have few term and condition must jion bgmi uc carding method or vip when we send card you only have 7 minutes to spend whole amount #non refundable",
   },
   {
     id: 5,
     title: "BASIC CARDING",
-    price: "800.00",
-    image: cardingImg,
+    price: "1000.00",
+    image: basicCarding,
     description: "This course include yt premium , snapchat premium , chat gpt , remini , spotify open ai any subscription based website carding",
   },
   {
     id: 6,
     title: "VIP + COURSE",
-    price: "2500.00",
+    price: "3200.00",
     image: vipPack,
     description: "This course includes all method of carding such as zomato swiggy myntra meesho instamart blinkit zepto bgmi uc ff bin find method 5 cc shop binance deposit a to z pay in two times pay 2k and then pay 500 ",
   },
