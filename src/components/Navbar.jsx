@@ -4,29 +4,29 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
 import carderZone from "../assests/images/CarderZone.jpeg";
 
-
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const menuItems = [
+    { name: "Home", path: "/" },
+    { name: "Shop", path: "/Courses" },
+    // { name: "Contact", path: "/" },
+  ];
 
   return (
     <nav className="bg-black text-white py-4 px-6 flex justify-between items-center shadow-lg relative">
       {/* Logo */}
       <Link to="/" className="text-2xl font-bold tracking-wider cursor-pointer">
-        {/* Carding <span className="text-green-400">Zone</span> */}
         <img
           src={carderZone}
-          alt= "Carding Zone"
+          alt="Carding Zone"
           className="w-full h-10 rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
         />
       </Link>
 
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-8 text-lg">
-        {[
-          { name: "Home", path: "/" },
-          { name: "Shop", path: "/Courses" }, 
-          { name: "Contact", path: "/" },
-        ].map((item, index) => (
+        {menuItems.map((item, index) => (
           <motion.div
             key={index}
             className="relative hover:text-green-400 transition-all duration-300"
@@ -43,19 +43,19 @@ const Navbar = () => {
                 repeat: Infinity,
               }}
             />
-          </motion.div>
+          </motion.div> 
         ))}
       </div>
 
       {/* Icons */}
-      <div className="flex space-x-6">
+      {/* <div className="flex space-x-6">
         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
           <FaShoppingCart className="text-xl cursor-pointer transition-all hover:text-green-400" />
         </motion.div>
         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
           <FaUser className="text-xl cursor-pointer transition-all hover:text-green-400" />
         </motion.div>
-      </div>
+      </div> */}
 
       {/* Mobile Menu Button */}
       <button
@@ -80,17 +80,14 @@ const Navbar = () => {
             exit={{ opacity: 0, y: -20 }}
             className="absolute top-16 left-0 w-full bg-black text-white flex flex-col items-center space-y-6 py-6 shadow-md z-50"
           >
-            {["Home", "Shop", "Contact"].map((item, index) => (
+            {menuItems.map((item, index) => (
               <motion.div
                 key={index}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <Link
-                  to={item === "Home" ? "/" : `/${item.toLowerCase()}`}
-                  onClick={() => setMenuOpen(false)}
-                >
-                  {item}
+                <Link to={item.path} onClick={() => setMenuOpen(false)}>
+                  {item.name}
                 </Link>
               </motion.div>
             ))}
