@@ -8,6 +8,7 @@ import basicCarding from "../assests/images/BasicCarding.jpeg";
 import bookMyShow from "../assests/images/BookMyShow.jpg";
 import cardingKnowledge from "../assests/images/CardingKnowledge.jpg";
 import zomatoCarding from "../assests/images/ZomatoCarding.jpg";
+import ccToCash from "../assests/images/CcToUpi.jpeg";
 
 const courses = [
   {
@@ -68,10 +69,17 @@ const courses = [
   },
   {
     id: 9,
+    title: "CC TO REAL CASH",
+    price: "5499.00",
+    image: ccToCash,
+    description: "This course includes all method of carding such as zomato swiggy myntra meesho instamart blinkit zepto bgmi uc ff bin find method 5 cc shop binance deposit a to z pay in two times pay 2k and then pay 500 ",
+  },
+  {
+    id: 10,
     title: "VIP + COURSE",
     price: "3200.00",
     image: vipPack,
-    description: "This course includes all method of carding such as zomato swiggy myntra meesho instamart blinkit zepto bgmi uc ff bin find method 5 cc shop binance deposit a to z pay in two times pay 2k and then pay 500 ",
+    description: "Cc to upi , gift card carding , bgmi uc method , diamond , Swiggy zomato , book my show , blinkit , zepto . Meesho, Myntra premium bin find top method , cc killer ",
   },
 ];
 
