@@ -213,7 +213,7 @@ const CourseDetails = () => {
               <p className="text-gray-300 text-sm mt-3">
                 After payment, send the screenshot on{" "}
                 <a
-                  href="https://t.me/carderzone69"
+                  href="https://t.me/cczoneadmin"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:underline font-semibold"
