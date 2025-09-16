@@ -3,7 +3,7 @@ import { useState } from "react";
 import { courses } from "./Courses";
 import { FaGooglePay, FaUniversity, FaCreditCard } from "react-icons/fa";
 import { SiPaytm, SiPhonepe } from "react-icons/si";
-import Qr1 from "../assests/images/Qr1.jpeg";
+import QRImg from "../assests/images/QRImg.jpg";
 import { motion, AnimatePresence } from "framer-motion";
 
 const CourseDetails = () => {
@@ -206,7 +206,7 @@ const CourseDetails = () => {
 
               {/* QR Image */}
               <div className="bg-white p-2 rounded-lg mt-4 shadow-md">
-                <img src={Qr1} alt="QR Code" className="w-40 h-40 mx-auto" />
+                <img src={QRImg} alt="QR Code" className="w-40 h-40 mx-auto" />
               </div>
 
               {/* Instructions */}
